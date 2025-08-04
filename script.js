@@ -16,13 +16,3 @@ const observer = new IntersectionObserver(
 pages.forEach((page) => {
   observer.observe(page);
 });
-// Center image on zoom (desktop)
-document.querySelectorAll('.menu-page').forEach(page => {
-  page.addEventListener('wheel', function(e) {
-    if (e.ctrlKey) {
-      const centerX = page.scrollWidth / 2 - page.clientWidth / 2;
-      page.scrollLeft = centerX;
-    }
-  });
-});
-
