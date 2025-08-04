@@ -27,7 +27,7 @@
 
 /* Make sure there's never horizontal scroll */
 html, body {
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
 }
 body {
@@ -57,5 +57,6 @@ body {
     padding: 0;
   }
 }
+
 
 
