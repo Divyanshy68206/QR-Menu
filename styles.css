@@ -16,11 +16,13 @@
 .menu-page img {
   display: block;
   margin: 0 auto;
-  max-width: 95vw;
+  max-width: 100%;
+  width: auto;
   height: auto;
   object-fit: contain;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
 
 
 /* Make sure there's never horizontal scroll */
@@ -47,3 +49,4 @@ body, html {
     padding: 0;
   }
 }
+
